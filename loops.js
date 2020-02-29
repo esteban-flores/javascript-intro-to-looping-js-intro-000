@@ -39,12 +39,6 @@ function whileLoop(n){
 //receiving 0 as a parameter because the do-while runs before the condition is
 //checked.
 
-
-
-
-
-
-
 function doWhileLoop(num){
 
   var i = 0; // sets the counter to 0
