@@ -43,6 +43,6 @@ function whileLoop(n){
 
 function doWhileLoop(num){
   do{
-
+    console.log("I run once regardless. while incrementVariable() returns a number less thanthe parameter received.");
   } while ();
 };
