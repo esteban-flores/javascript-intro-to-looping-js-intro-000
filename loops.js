@@ -15,9 +15,9 @@ function forLoop(array){
       array.push(`I am ${i} strange loops.`);
     }*/
     if(array[i] === undefined){
-      array[i] = `I am 1 strange loop.`;
-    } else if(i === 1 || i === 11){
-      array[i] = "I am 1 strange loop.";
+      array.push(`I am 1 strange loop.`);
+    } else if(i === 1){
+      array.push(`I am 1 strange loop.`);
     } else{
       array[i] = `I am ${i} strange loop${i === 0 ? '' : 's'}.`;
     }
