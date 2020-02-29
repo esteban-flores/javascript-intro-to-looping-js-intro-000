@@ -19,7 +19,7 @@ function forLoop(array){
     } else if(i === 1){
       array.push(`I am 1 strange loop.`);
     } else{
-      array[i] = `I am ${i} strange loop${i === 0 ? '' : 's'}.`;
+      array.push(`I am ${i} strange loop${i === 0 ? '' : 's'}.`);
     }
 
   };
