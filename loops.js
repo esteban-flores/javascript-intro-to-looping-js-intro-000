@@ -9,7 +9,7 @@ var array = [];
 
 function forLoop(array){
   //expect(strangeArray[34]).to.equal(rest)
-  for(var i = 0; i < 25; i++ || i === undefined){
+  for(var i = 0; i < 25; i++ || array[i] === undefined){
     if(i === 1 || i === 11){
       array[i] = "I am 1 strange loop.";
     } else if(array[i] === undefined){
