@@ -25,7 +25,7 @@ function forLoop(array){
 //passed in number to 0. Then return the string 'done'.
 
 function whileLoop(n){
-  while(n >= 0){
+  while(n > 0){
     console.log(n);
     n -= 1;
   }
