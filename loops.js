@@ -11,12 +11,9 @@ function forLoop(array){
   //expect(strangeArray[34]).to.equal(rest)
   for(var i = 0; i < 25; i++){
     if(array[i] === undefined){
-
+      array[i] = `I am 24 strange loops.`;
     } else if(i === 1 || i === 11){
       array[i] = "I am 1 strange loop.";
-    } else if(array[i] === undefined){
-      i = 24;
-      array[i] = `I am ${i} strange loop${i === 0 ? '' : 's'}.`;
     } else{
       //array[i] = `I am ${i} strange loops.`;
       array[i] = `I am ${i} strange loop${i === 0 ? '' : 's'}.`;
