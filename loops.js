@@ -36,6 +36,6 @@ Define a function called doWhileLoop in loops.js. The function should take an in
 
 function doWhileLoop(){
   do{
-    
+
   } while ();
 };
