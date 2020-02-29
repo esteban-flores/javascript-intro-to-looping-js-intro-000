@@ -13,7 +13,7 @@ function forLoop(array){
     if(i === 1 || i === 11){
       array[i] = "I am 1 strange loop.";
     } else if(array[i] === undefined){
-      i = 24;
+      //i = 24;
       //array[i] = `I am ${i} strange loop${i === 0 ? '' : 's'}.`;
     } else{
       //array[i] = `I am ${i} strange loops.`;
