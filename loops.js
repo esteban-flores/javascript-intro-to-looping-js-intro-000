@@ -44,5 +44,5 @@ function whileLoop(n){
 function doWhileLoop(num){
   do{
     console.log("I run once regardless. while incrementVariable() returns a number less than the parameter received.");
-  } while (incrementVariable() < n);
+  } while (incrementVariable() < num);
 };
