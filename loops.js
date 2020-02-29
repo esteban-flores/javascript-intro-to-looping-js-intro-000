@@ -48,7 +48,7 @@ function incrementVariable() {
 
 function doWhileLoop(num){
   var i = 0;
-  
+
   incrementVariable();
 
   do{
