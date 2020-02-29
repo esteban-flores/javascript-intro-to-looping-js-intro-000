@@ -41,7 +41,7 @@ function whileLoop(n){
 //receiving 0 as a parameter because the do-while runs before the condition is
 //checked.
 
-function doWhileLoop(){
+function doWhileLoop(num){
   do{
 
   } while ();
