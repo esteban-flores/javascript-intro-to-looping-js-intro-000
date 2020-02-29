@@ -33,5 +33,9 @@ function whileLoop(n){
 };
 
 function doWhileLoop(){
+  do{
 
+  } while (){
+
+  }
 };
