@@ -41,15 +41,17 @@ function whileLoop(n){
 
 
 
-function incrementVariable() {
-  i = i + 1;
-  return i;
-}
+
 
 function doWhileLoop(num){
   var i = 0;
 
-  incrementVariable();
+  function incrementVariable() {
+    i = i + 1;
+    return i;
+  }
+
+  //incrementVariable();
 
   do{
     console.log("I run once regardless.");
