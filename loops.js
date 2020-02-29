@@ -41,6 +41,13 @@ function whileLoop(n){
 //receiving 0 as a parameter because the do-while runs before the condition is
 //checked.
 
+var i = 0;
+ 
+function incrementVariable() {
+  i = i + 1;
+  return i;
+}
+
 function doWhileLoop(num){
   do{
     console.log("I run once regardless. while incrementVariable() returns a number less than the parameter received.");
