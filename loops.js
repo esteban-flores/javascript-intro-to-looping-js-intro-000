@@ -46,11 +46,11 @@ function incrementVariable() {
 }
 
 
-const i = 0;
+
 
 function doWhileLoop(num){
 
-
+const i = 0;
 
 
   incrementVariable();
