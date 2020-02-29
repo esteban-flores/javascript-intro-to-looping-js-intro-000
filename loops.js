@@ -50,7 +50,7 @@ function incrementVariable() {
 
 function doWhileLoop(num){
 
-const i = 0;
+var i = 0;
 
 
   incrementVariable();
